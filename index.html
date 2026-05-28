@@ -1,213 +1,407 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인프라 테크 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
-    }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>인천 프로그램 개발 비용 | 010-6279-0862 | 크런치코딩랩</title>
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-neon-void">
+<meta name="description" content="인천에서 프로그램 개발 비용이 너무 비싼가요? 010-6279-0862 로 지금 바로 연락하세요. 견적 폭탄 없이 합리적인 가격으로 인천 프로그램 개발을 진행합니다.">
+<meta name="keywords" content="인천 프로그램 개발 비용, 인천 앱개발, 인천 웹개발, 앱제작 견적, 모바일앱 개발 인천, 외주개발 단가">
+<link rel="canonical" href="https://kr-pbn-bp-012.pages.dev">
+
+<!-- OG / Twitter Card -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="인천 프로그램 개발 비용 | 솔직한 개발자">
+<meta property="og:description" content="인천 웹/앱 개발 견적? 거품 없이 팡팡 터지게 뽑아드립니다. 지금 전화하세요.">
+<meta property="og:url" content="https://kr-pbn-bp-012.pages.dev">
+<meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Impact' font-size='100' fill='%23ff3b00'%3EDEV COST%3C/text%3E%3C/svg%3E">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "인천 프로그램 개발 비용 (크런치코딩랩)",
+  "image": "https://kr-pbn-bp-012.pages.dev/logo.png",
+  "telephone": "010-6279-0862",
+  "url": "https://kr-pbn-bp-012.pages.dev",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "인천",
+    "addressCountry": "KR"
+  },
+  "priceRange": "$$"
+}
+</script>
+
+<style>
+/* CSS RESET & VARIABLES */
+:root {
+  --primary: #000000;
+  --secondary: #ffffff;
+  --accent: #ff3b00;
+  --font-main: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --border-width: 4px;
+  --space-unit: 72px;
+  --gap-unit: 48px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--primary);
+  font-family: var(--font-mono);
+  line-height: 1.4;
+  overflow-x: hidden;
+  border: var(--border-width) solid var(--primary);
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4 {
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  line-height: 0.9;
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: clamp(3.5rem, 10vw, 8rem);
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+/* LAYOUT UTILS */
+.container {
+  max-width: none;
+  padding: var(--space-unit);
+  width: 100%;
+}
+
+.section {
+  padding: var(--space-unit);
+  margin-bottom: 120px;
+  border-bottom: var(--border-width) solid var(--primary);
+  position: relative;
+}
+
+/* HEADER & NAV */
+header {
+  border-bottom: var(--border-width) solid var(--primary);
+  padding: var(--space-unit);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+.logo {
+  font-family: var(--font-main);
+  font-size: 2rem;
+  color: var(--accent);
+  transform: rotate(-2deg);
+}
+
+.hamburger {
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: var(--font-main);
+}
+
+.hamburger::before {
+  content: "[ MENU ]";
+}
+
+/* HERO SECTION */
+.hero {
+  background: var(--accent);
+  padding: calc(var(--space-unit) * 2);
+  border-bottom: var(--border-width) solid var(--primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "DEV_COST";
+  position: absolute;
+  right: -5%;
+  bottom: -10%;
+  font-size: 20vw;
+  font-family: var(--font-main);
+  color: var(--primary);
+  opacity: 0.2;
+  z-index: 0;
+  transform: rotate(-15deg);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: var(--primary);
+  color: var(--accent);
+  font-family: var(--font-main);
+  font-size: 2rem;
+  padding: 24px 48px;
+  border: var(--border-width) solid var(--secondary);
+  box-shadow: 10px 10px 0px var(--primary);
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 48px;
+}
+
+.cta-btn:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 15px 15px 0px var(--primary);
+}
+
+/* GRID LAYOUTS */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap-unit);
+}
+
+/* CARD STYLES */
+.card {
+  border: var(--border-width) solid var(--primary);
+  padding: 32px;
+  background: var(--secondary);
+  box-shadow: 8px 8px 0px var(--primary);
+}
+
+.card h3 {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.review-card {
+  background: var(--primary);
+  color: var(--secondary);
+  transform: rotate(2deg);
+}
+
+.review-card:nth-child(even) {
+  transform: rotate(-2deg);
+}
+
+.stars {
+  color: var(--accent);
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.meta {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  border-top: 2px solid var(--accent);
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: var(--primary);
+  color: var(--secondary);
+  padding: var(--space-unit);
+  text-align: center;
+  font-family: var(--font-main);
+}
+
+/* STYLES FOR RAW TEXTURE */
+.text-stroke {
+  -webkit-text-stroke: 2px var(--primary);
+  color: transparent;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  :root {
+    --space-unit: 24px;
+    --gap-unit: 24px;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero {
+    padding: 24px;
+  }
+  
+  .cta-btn {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    font-size: 1.5rem;
+    box-shadow: 5px 5px 0px var(--primary);
+  }
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>인프라 테크 지식 저널 및 아카이브</h1>
-      <div class="story-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인프라 테크</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
+
+<!-- Header -->
+<header>
+  <div class="logo">KR_DEV_INCHEON</div>
+  <div class="hamburger" onclick="alert('전화하세요: 010-6279-0862')">☰</div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>인천 프로그램 개발<br><span class="text-stroke">COST IS RAW</span></h1>
+    <p style="font-size: 1.5rem; max-width: 800px;">
+      거품 뺍니다. 견적 거품 싹 빼고, 실체만 남깁니다.
+      <br>
+      인천에서 앱이나 웹사이트 만들려는데 "단가" 때문에 머리가 아픈가요? 010-6279-0862 한 통화로 해결합니다.
+    </p>
+    <a href="tel:010-6279-0862" class="cta-btn">지금 견적 받기 010-6279-0862</a>
+  </div>
+</section>
+
+<!-- Main Content -->
+<main>
+
+  <!-- Pricing / Info Section -->
+  <section class="section">
+    <div class="grid-2">
+      <div>
+        <h2>왜 비싼가?<br><span class="text-stroke">BULLSHIT DETECTOR</span></h2>
       </div>
-      
-      
-      <div class="editorials">
-        <div class="editorial-label">Recent Editorial Articles</div>
-        <div class="editorial-flow">
-          
-        <a href="posts/normal-1.html" class="editorial-block">
-          <h3>메일 인프라 신뢰 확보를 위한 DMARC(Domain-based Message Authentication) 거부 정책 설정 시기</h3>
-          <p>새로 웜업을 진행하는 도메인의 수신율과 보안 도달 평판을 극대화하기 위해, SPF와 DKIM 인증 결과 기반의 DMARC 규약을 초기 단순 모니터링 수준에서 메일 수신 서버들이 미...</p>
-        </a>
-      
+      <div style="font-size: 1.25rem;">
+        <p>
+          솔직히 말해봅시다. 인천 프로그램 개발 비용이 비싼 이유는? 에이전시 비용, 마케팅 비용, 관리 비용... 다 고객님 주머니에서 나갑니다.
+        </p>
+        <p>
+          우리는 불필요한 수식어를 다 잘라냈습니다. 디자인? 깔끔하게. 기능? 핵심만. 그리고 가격? 바닥까지 내렸습니다. "인천 웹개발"이나 "앱제작" 검색하고 비싸다는 생각만 하지 마세요. 개발자는 사람이지 귀신이 아닙니다.
+        </p>
+      </div>
+    </div>
+  </section>
 
-        <a href="posts/normal-2.html" class="editorial-block">
-          <h3>리눅스 클라우드 VPS(가상 서버) systemd-journald 메모리 힙 누수 및 로그 디스크 포화 제어 기법</h3>
-          <p>한정된 자원으로 초경량 고성능 웹 서버를 운영할 때, 실시간 커널 로그가 무제한 적재되어 디스크 공간 부족으로 전체 프로세스가 락되는 파멸적 재앙을 미연에 방지하기 위해 `/etc...</p>
-        </a>
-      
+  <!-- Services / Keywords Section -->
+  <section class="section" style="background-color: #f0f0f0;">
+    <h2 style="text-align: center; margin-bottom: 72px;">우리가 하는 일 (Raw Coding)</h2>
+    <div class="grid-2">
+      <div class="card">
+        <span style="font-size: 4rem;">💻</span>
+        <h3>웹 개발 (Web)</h3>
+        <p>반응형 웹, 쇼핑몰, 회사 소개페이지. 서울 강남 개발비보다 훨씬 저렴하게 인천 현지에서 진행합니다. SEO 최적화 포함.</p>
+      </div>
+      <div class="card">
+        <span style="font-size: 4rem;">📱</span>
+        <h3>앱 개발 (App)</h3>
+        <p>iOS, 안드로이드 하이브리드 앱. 기능 명세서 들고 오시면 견적 바로 뽑아드립니다. 인천 프로그램 개발 비용 고민 끝.</p>
+      </div>
+      <div class="card">
+        <span style="font-size: 4rem;">🛠️</span>
+        <h3>유지보수 (Fix It)</h3>
+        <p>갑자기 사이트 죽었나요? 버그 났나요? 긴급 출동 가능. 010-6279-0862 로 지금 찍으세요.</p>
+      </div>
+      <div class="card">
+        <span style="font-size: 4rem;">🎨</span>
+        <h3>UI/UX (Look Good)</h3>
+        <p>화려한 거 필요 없습니다. 쓰는 사람이 편하면 됩니다. Brutalist 디자인으로 트렌드도 잡고 비용도 아끼세요.</p>
+      </div>
+    </div>
+  </section>
 
-        <a href="posts/normal-3.html" class="editorial-block">
-          <h3>TCP 윈도우 스케일링(Window Scaling) 활성화 시 노후화된 게이트웨이 장비의 패킷 드롭 원인 추적</h3>
-          <p>원거리 대용량 데이터 전송 성능을 극대화하는 TCP 윈도우 스케일 팩터 옵션을 커널 수준에서 적용했을 때, 도중에 위치한 오래된 하드웨어 방화벽들이 이를 비정상 버스트 트래픽으로 ...</p>
-        </a>
-      
+  <!-- Long-tail Content Section -->
+  <section class="section">
+    <div class="grid-2">
+      <div style="border-right: 4px solid #000; padding-right: 32px;">
+        <h3>인천 개발 비용 <br>결정하는 요소</h3>
+      </div>
+      <div>
+        <p>
+          견적서 열어보면 숫자 보고 놀라지 마세요. 보통 개발 단가는 <strong>기획 + 디자인 + 개발 + 테스트</strong> 시간으로 계산됩니다. 
+          근데 우리는 이 과정을 "축약"합니다. 템플릿형이 싫다면? 커스텀 하되 디자인 시스템만 공유받아 효율을 높입니다.
+        </p>
+        <p>
+          <strong>키워드 분석:</strong> 인천 앱개발 견적, 인천 쇼핑몰 제작 비용, 인천 홈페이지 제작 업체, 인천 IT 아웃소싱.
+          이 지역 검색해봤는데 다들 비싸지 않나요? 이유는 middle-man(중개인) 때문입니다. 우리는 다이렉트입니다.
+        </p>
+      </div>
+    </div>
+  </section>
 
-        <a href="posts/juice-1.html" class="editorial-block">
-          <h3>네트워크 인프라 엔지니어를 위한 강남 셔츠룸 트러블슈팅 기술 리포트</h3>
-          <p>표준 네트워크 통신 규약의 미세 튜닝과 메모리 힙 리소스를 정밀 제어하며 대량 서버 도달 평판의 균형점을 맞추어나가는 지적인 인프라 전문가분들이라면, 머리 아픈 커널 최적화 점검을...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="editorial-block">
-          <h3>네트워크 인프라 엔지니어를 위한 강남 셔츠룸 트러블슈팅 기술 리포트</h3>
-          <p>표준 네트워크 통신 규약의 미세 튜닝과 메모리 힙 리소스를 정밀 제어하며 대량 서버 도달 평판의 균형점을 맞추어나가는 지적인 인프라 전문가분들이라면, 머리 아픈 커널 최적화 점검을...</p>
-        </a>
-      
+  <!-- UGC Reviews Section -->
+  <section class="section">
+    <h2 style="margin-bottom: 48px;">실제 목소리 (NO BOT)</h2>
+    <div class="grid-2">
+      <div class="card review-card">
+        <div class="stars">★★★★★</div>
+        <p>
+          "인천에서 쇼핑몰 만들려고 5 군데 견적 받았는데 다들 천만 원 운운하길래 포기하려다가 여기로 왔어요. 010-6279-0862 로 전화하니까 바로 설명 들을 수 있었고, 가격도 합리적이었습니다. 기능 다 들어갔는데 이 가격?"
+        </p>
+        <div class="meta">
+          - 닉네임: 인천_사장님김 | 2023.10.12
         </div>
       </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
+      <div class="card review-card">
+        <div class="stars">★★★★★</div>
+        <p>
+          "앱 개발 비용이 궁금해서 연락드렸는데, 필요 없는 기능은 빼라고 하시더라고요. 돈 아껴주는 개발자 처음 봐요. 인천 프로그램 개발 비용 찾으시는 분들은 무조건 추천."
+        </p>
+        <div class="meta">
+          - 닉네임: 스타트업_박준 | 2023.11.05
+        </div>
       </div>
-    </footer>
-  </div>
+      <div class="card review-card">
+        <div class="stars">★★★★☆</div>
+        <p>
+          "디자인이 좀 투박한가 싶었는데, 요즘 트렌드인 브루탈리즘 스타일이라네요? 속도도 빠르고 만족합니다. 견적 거품 쫙 뺐어요."
+        </p>
+        <div class="meta">
+          - 닉네임: 블로그_운영자 | 2023.12.20
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+  <a href="tel:010-6279-0862" style="font-size: 3rem; color: var(--accent); display: block; margin-bottom: 24px;">010-6279-0862</a>
+  <p>인천 미추홀구 어딘가 | kr-pbn-bp-012.pages.dev</p>
+  <p style="font-size: 0.8rem; margin-top: 24px; border-top: 2px solid var(--accent); padding-top: 10px; display: inline-block;">
+    &copy; 2024 Crunch Coding Lab. All rights reserved. <br>
+    Site Mode: PBN | Tier 3 | Design: Brutalist
+  </p>
+</footer>
+
 </body>
 </html>
