@@ -1,206 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://incheon-web-guide.pbn-builder.xyz/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://incheon-web-guide.pbn-builder.xyz/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/</loc>
-    <lastmod>2026-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://incheon-web-guide.pbn-builder.xyz/about.html</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260705-1132.html</loc>
-    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0016.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0017.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0018.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0019.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0020.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0021.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0022.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0023.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0024.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0025.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0026.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0027.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0028.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0029.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260719-0030.html</loc>
-    <lastmod>2026-07-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0181.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0182.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0183.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0184.html</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0185.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0001.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0002.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0003.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0004.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0005.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0006.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0007.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0008.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0009.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0010.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0011.html</loc>
-    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0181.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0182.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0183.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0184.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://incheon-web-guide.pbn-builder.xyz/posts/gemini-coverage-20260721-0185.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
